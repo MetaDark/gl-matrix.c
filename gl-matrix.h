@@ -153,7 +153,7 @@ vec3_t vec3_normalize(vec3_t vec, vec3_t dest);
  * Returns:
  * dest if not NULL, vec otherwise
  */
-vec3_t vec3_cross (vec3_t vec, vec3_t vec2, vec3_t dest);
+vec3_t vec3_cross(vec3_t vec, vec3_t vec2, vec3_t dest);
 
 /*
  * vec3_length
@@ -192,7 +192,7 @@ float vec3_dot(vec3_t vec, vec3_t vec2);
  * Returns:
  * dest if not NULL, vec otherwise
  */
-vec3_t vec3_direction (vec3_t vec, vec3_t vec2, vec3_t dest);
+vec3_t vec3_direction(vec3_t vec, vec3_t vec2, vec3_t dest);
 
 /*
  * vec3_lerp

@@ -116,7 +116,7 @@ vec3_t vec3_normalize(vec3_t vec, vec3_t dest) {
     return dest;
 }
 
-vec3_t vec3_cross (vec3_t vec, vec3_t vec2, vec3_t dest) {
+vec3_t vec3_cross(vec3_t vec, vec3_t vec2, vec3_t dest) {
     if (!dest) { dest = vec; }
 
     float x = vec[0], y = vec[1], z = vec[2],
@@ -137,7 +137,7 @@ float vec3_dot(vec3_t vec, vec3_t vec2) {
     return vec[0] * vec2[0] + vec[1] * vec2[1] + vec[2] * vec2[2];
 }
 
-vec3_t vec3_direction (vec3_t vec, vec3_t vec2, vec3_t dest) {
+vec3_t vec3_direction(vec3_t vec, vec3_t vec2, vec3_t dest) {
     if (!dest) { dest = vec; }
 
     float x = vec[0] - vec2[0],
